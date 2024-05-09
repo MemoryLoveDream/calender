@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey1">
+
+    <include layout="@layout/week_bar" />
+    <GridView
+        android:id="@+id/big_month_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:numColumns="7"/>
+    <TextView
+        android:id="@+id/day_lunar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/lunar"
+        android:textSize="18sp"
+        android:textColor="@color/grey2"/>
+    <ListView
+        android:id="@+id/day_special"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/back_today"
+        android:contentDescription="@string/back_today"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/back_today"
+        android:scaleType="fitCenter"
+        android:background="@drawable/background_white"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+    <ImageButton
+        android:id="@+id/add_memorandum"
+        android:contentDescription="@string/add_memorandum"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/add"
+        android:scaleType="fitCenter"
+        android:background="@drawable/today"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:orientation="horizontal"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/hez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:text="@string/hs_eb_cz"
+        android:textColor="@color/grey2"/>
+    <TextView
+        android:id="@+id/lunar_month_first_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/lunar_month_first_day"
+        android:textColor="@color/grey2"/>
+</LinearLayout>

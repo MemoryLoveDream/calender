@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/head"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal"
+    android:background="@color/grey1">
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/year1"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginStart="10dp"/>
+    <ImageView
+        android:id="@+id/up_down"
+        android:contentDescription="@string/up_down"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/down"
+        android:scaleType="fitCenter"
+        android:layout_toEndOf="@id/date"/>
+    <ImageView
+        android:id="@+id/search"
+        android:contentDescription="@string/search"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/search"
+        android:scaleType="fitCenter"
+        android:layout_toStartOf="@id/more"
+        android:layout_marginEnd="20dp"/>
+    <ImageView
+        android:id="@+id/more"
+        android:contentDescription="@string/more"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/more"
+        android:scaleType="fitCenter"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"/>
+</RelativeLayout>
